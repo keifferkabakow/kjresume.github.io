@@ -266,6 +266,12 @@ header nav {
 /* For Tablets */
 
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .transparent-footer {
+    width: 85%;
+  }
   .transparent-head {
     display: grid;
     grid-template-columns: 1fr;
@@ -288,7 +294,10 @@ header nav {
 /* For Smartphones */
 @media only screen and (max-width: 630px) {
   .container {
-    width: 80%;
+    width: 90%;
+  }
+  .transparent-footer {
+    width: 95%;
   }
   .transparent-head nav ul {
     display: grid;
